@@ -39,6 +39,6 @@ switch (argv[3]) {
         break;
     case '_native':
         console.log(require('./lib/total').allNativeMoules());
-        break;  
+        break;
 }
 
