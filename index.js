@@ -5,7 +5,7 @@ const fs = require('fs');
 
 var {argv} = process;
 argv[2] = argv[2] || 'index.js';
-const mainPath = `${__dirname}/${argv[2]}`;
+const mainPath = `${argv[2]}`;
 
 const scanner = require('./lib/scanner');
 const utils = require('./lib/utils');
